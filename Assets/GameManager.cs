@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Push Debug Console
+
         if(Input.GetKeyDown(KeyCode.LeftArrow))
         {
             obj.position = new Vector3(0, Screen.height / 2, 0);
